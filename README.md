@@ -46,11 +46,10 @@ The diode in this circuit allows the base voltage to be lower than the collector
 For the negative peak input signal, the current will pass through the diode towards the base, lowering the collector bias accordingly. It also depends on how much current the resistor allows.
 For positive signal creating a difference between the collector voltage and the input voltage lower than the diode voltage drop, the diode will not allow current through. Therefore, the signal will reverse leak through the diode and will be amplified. The amplifier has a maximum output amplification, which clips part of the positive input swing.
 The resulting output signal is assymetrically clipped and amplified, creating a unique fuzz sound depending on the input amplitude and the choice of diode and transistor.
-
+The single stage amplifier in this circuit makes the collector current equal to the base current multiplied by the by the transistor current gain. 
 ## Choosing your diode and transistor
   - A lower voltage drop diode creates more compression from more clipping, but less amplification.
   - A higher transistor current gain (hfe or β) creates more saturation and fuzz.
 
- 
-
-
+##
+The capacitor C1 is responsible for the high-pass filter. It will block low frequency (bass) signals. THe formula for the critical frequency is fc=1/(2*π*R*C)
