@@ -1,6 +1,5 @@
 # FuzzPedal
 Fuzz Guitar Pedal Tutorial and Explanation
-By Antoine Major, Electrical Engineering Student, Montreal, Canada
 
 Improve the understanding and application of the following skills:
   - Practice :
