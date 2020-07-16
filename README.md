@@ -60,3 +60,4 @@ Another high-pass filter using C2 blocks low frequencies or DC signals from exit
 Volume control is done with a simple controllable voltage divider with the potentiometer. Vo = Vin * Rground/(Rpot + Rground).
 
 # 1.4 Testing using the breadboard
+We start by making the Fuzz effect circuit, then connect the input and output sockets along with the 9V battery. We may then test this circuit with a guitar and amplifier, or an oscilloscope. For the oscilloscope, use a wave signal at the input and the output should show a slpoe increase along with positive clipping. The last step is to add the stomp button, which simply switch the input signal from passing throught the effect circuit to bypassing it. The linked button switch has three channels, but bypassing the third channel with a wire from the input to the output reduces the number of channels to two.
