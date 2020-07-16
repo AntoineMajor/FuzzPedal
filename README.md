@@ -59,4 +59,4 @@ Another high-pass filter using C2 blocks low frequencies or DC signals from exit
 
 Volume control is done with a simple controllable voltage divider with the potentiometer. Vo = Vin * Rground/(Rpot + Rground).
 
-#1.4 Testing using the breadboard
+# 1.4 Testing using the breadboard
