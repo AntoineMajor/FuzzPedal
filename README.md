@@ -53,3 +53,10 @@ The single stage amplifier in this circuit makes the collector current equal to 
 
 ##
 The capacitor C1 is responsible for the high-pass filter. It will block low frequency (bass) signals. THe formula for the critical frequency is fc=1/(2*π*R*C)
+For the positive swing, the input impedance is high and the bass frequencies will be cut according to the transistor current gain value. A higher C1 value will also cut less frequencies. The low impedance of the negative swing is dependant on the diode and has a higher frequency pass filter.
+
+Another high-pass filter using C2 blocks low frequencies or DC signals from exiting the pedal. We can calculate this one using the same formula. R equals the potentiometer value (Rpot) and C2 is the capacitor. For example, at maximum Rpot value of 100kΩ and 100nF capacitor value, the frequency cut will be at 16Hz.
+
+Volume control is done with a simple controllable voltage divider with the potentiometer. Vo = Vin * Rground/(Rpot + Rground).
+
+#1.4 Testing using the breadboard
